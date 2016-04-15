@@ -1,0 +1,7 @@
+package factorization
+
+import org.scalatest.FunSpec
+
+class FactorizationTest {
+
+}

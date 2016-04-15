@@ -1,0 +1,820 @@
+!SESSION 2016-03-09 13:47:38.563 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-03-09 13:50:53.585
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.scala-ide.org/releases-29/stable/site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-03-09 13:50:53.587
+!MESSAGE No repository found at http://download.scala-ide.org/releases-29/stable/site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-03-09 13:53:29.174
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.scala-ide.org/releases-29/stable/site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-03-09 13:53:29.174
+!MESSAGE No repository found at http://download.scala-ide.org/releases-29/stable/site.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:53:34.120
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.120
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.120
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.120
+!MESSAGE Missing requirement: Aspect Weaving Hooks Plug-in 1.1.100.weaving-hook-20140821 (org.eclipse.equinox.weaving.hook 1.1.100.weaving-hook-20140821) requires 'bundle org.eclipse.osgi [3.10.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.121
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.121
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.121
+!MESSAGE To: org.scala-ide.sdt.weaving.feature.feature.group [4.3.0.v-2_11-201512011536-499c89a]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.121
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.121
+!MESSAGE From: JDT Weaving for Scala 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.weaving.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.121
+!MESSAGE To: org.eclipse.equinox.weaving.hook [1.1.100.weaving-hook-20140821]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:53:34.194
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.194
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.194
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.194
+!MESSAGE Missing requirement: Aspect Weaving Hooks Plug-in 1.1.100.weaving-hook-20140821 (org.eclipse.equinox.weaving.hook 1.1.100.weaving-hook-20140821) requires 'bundle org.eclipse.osgi [3.10.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.194
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.194
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.194
+!MESSAGE To: org.scala-ide.sdt.weaving.feature.feature.group [4.3.0.v-2_11-201512011536-499c89a]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:34.195
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.195
+!MESSAGE From: JDT Weaving for Scala 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.weaving.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:34.195
+!MESSAGE To: org.eclipse.equinox.weaving.hook [1.1.100.weaving-hook-20140821]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:53:36.137
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.137
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.137
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.137
+!MESSAGE Missing requirement: Aspect Weaving Hooks Plug-in 1.1.100.weaving-hook-20140821 (org.eclipse.equinox.weaving.hook 1.1.100.weaving-hook-20140821) requires 'bundle org.eclipse.osgi [3.10.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.137
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.137
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.137
+!MESSAGE To: org.scala-ide.sdt.weaving.feature.feature.group [4.3.0.v-2_11-201512011536-499c89a]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.138
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.138
+!MESSAGE From: JDT Weaving for Scala 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.weaving.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.138
+!MESSAGE To: org.eclipse.equinox.weaving.hook [1.1.100.weaving-hook-20140821]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:53:36.144
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.144
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.144
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.144
+!MESSAGE Missing requirement: Aspect Weaving Hooks Plug-in 1.1.100.weaving-hook-20140821 (org.eclipse.equinox.weaving.hook 1.1.100.weaving-hook-20140821) requires 'bundle org.eclipse.osgi [3.10.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.145
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.145
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.145
+!MESSAGE To: org.scala-ide.sdt.weaving.feature.feature.group [4.3.0.v-2_11-201512011536-499c89a]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:53:36.145
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.145
+!MESSAGE From: JDT Weaving for Scala 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.weaving.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:53:36.145
+!MESSAGE To: org.eclipse.equinox.weaving.hook [1.1.100.weaving-hook-20140821]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-03-09 13:54:05.307
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.scala-ide.org/releases-29/stable/site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-03-09 13:54:05.308
+!MESSAGE No repository found at http://download.scala-ide.org/releases-29/stable/site.
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.396
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.396
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.397
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.397
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.397
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.397
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:54:13.615
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.615
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.615
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.615
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.615
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.616
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.616
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:54:13.676
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.676
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.677
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.677
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:13.677
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.677
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:13.677
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:54:14.370
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:14.370
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.370
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.370
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:14.371
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.371
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.371
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 13:54:14.372
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:14.372
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.372
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.373
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 13:54:14.373
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.373
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 13:54:14.373
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-03-09 13:57:23.390
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.scala-ide.org/releases-29/stable/site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-03-09 13:57:23.390
+!MESSAGE No repository found at http://download.scala-ide.org/releases-29/stable/site.
+!SESSION 2016-03-09 14:07:47.163 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 14:41:11.709
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 14:41:13.904
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 15:30:28.968
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 15:30:45.570
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 15:44:37.864
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 15:45:12.156
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-03-09 15:51:32.004
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.scala-ide.org/releases-29/stable/site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-03-09 15:51:32.041
+!MESSAGE No repository found at http://download.scala-ide.org/releases-29/stable/site.
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:19.731
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:19.731
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:19.731
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:19.732
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:19.732
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:19.732
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 15:52:20.191
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:20.191
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.191
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.192
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:20.192
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.192
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.192
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 15:52:20.255
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:20.256
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.256
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.256
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:20.256
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.256
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:20.257
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 15:52:21.736
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:21.736
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.736
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.737
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:21.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.737
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.737
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-03-09 15:52:21.739
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:21.740
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.740
+!MESSAGE Software being installed: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.740
+!MESSAGE Missing requirement: Scala Plugin 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.core 4.3.0.v-2_11-201512011536-499c89a) requires 'bundle org.eclipse.e4.ui.workbench 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-03-09 15:52:21.740
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.740
+!MESSAGE From: Scala IDE for Eclipse 4.3.0.v-2_11-201512011536-499c89a (org.scala-ide.sdt.feature.feature.group 4.3.0.v-2_11-201512011536-499c89a)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-03-09 15:52:21.740
+!MESSAGE To: org.scala-ide.sdt.core [4.3.0.v-2_11-201512011536-499c89a]
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-03-09 15:53:10.746
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoSuchMethodError: xsbt.CachedCompiler0$Compiler.classPath()Lscala/tools/nsc/util/ClassFileLookup;
+	at xsbt.CachedCompiler0$Compiler.findOnClassPath(CompilerInterface.scala:249)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at xsbt.CachedCompiler0$Compiler$$anonfun$findClass$2.apply(CompilerInterface.scala:239)
+	at scala.Option.orElse(Option.scala:266)
+	at xsbt.CachedCompiler0$Compiler.findClass(CompilerInterface.scala:239)
+	at xsbt.LocateClassFile.classFile(LocateClassFile.scala:25)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.xsbt$Dependency$DependencyPhase$$anonfun$$processDependency$1(Dependency.scala:64)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:46)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.apply(Dependency.scala:45)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:322)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:978)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:45)
+	at xsbt.Dependency$DependencyPhase$$anonfun$run$2.apply(Dependency.scala:40)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1177)
+	at xsbt.Dependency$DependencyPhase.run(Dependency.scala:40)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1557)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1537)
+	at scala.tools.nsc.Global$Run.compile(Global.scala:1644)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:116)
+	at xsbt.CachedCompiler0.run(CompilerInterface.scala:95)
+	at xsbt.CompilerInterface.run(CompilerInterface.scala:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sbt.compiler.AnalyzingCompiler.call(AnalyzingCompiler.scala:101)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:47)
+	at sbt.compiler.AnalyzingCompiler.compile(AnalyzingCompiler.scala:41)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply$mcV$sp(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler$$anonfun$compileScala$1$1.apply(MixedAnalyzingCompiler.scala:51)
+	at sbt.compiler.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:75)
+	at sbt.compiler.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:50)
+	at sbt.compiler.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:65)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$$anonfun$compileInternal$1.apply(IncrementalCompiler.scala:160)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:66)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:64)
+	at sbt.inc.IncrementalCommon.cycle(IncrementalCommon.scala:31)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:62)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:61)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:89)
+	at sbt.inc.Incremental$.compile(Incremental.scala:61)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:54)
+	at sbt.compiler.IC$.compileInternal(IncrementalCompiler.scala:160)
+	at sbt.compiler.IC$.incrementalCompile(IncrementalCompiler.scala:138)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:44)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:650)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:118)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
